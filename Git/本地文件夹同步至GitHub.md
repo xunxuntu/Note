@@ -2,7 +2,7 @@
 
 【参考链接】https://blog.csdn.net/Sarah_LZ/article/details/119601673
 
-## 一、操作过程
+## 一、操作过程【初次使用】
 
 ### Step 1 创建新仓库
 
@@ -142,7 +142,7 @@ https://blog.csdn.net/hkl_Forever/article/details/128510014
 
 ## 二、更新本地文件到GitHub
 
-将在本地更新后的代码上传到GitHub
+【已绑定仓库，不是首次将代码上传GitHub】将在本地更新后的代码上传到GitHub
 
 【参考链接】https://blog.csdn.net/qq_46417852/article/details/127511616
 
@@ -165,3 +165,28 @@ https://blog.51cto.com/u_16113862/6279475
 ### 7、打开GitHub查看是否成功
 
 ===========>>>>>>>> 至此，完全成功。
+
+## 三、操作过程【二次使用】
+
+0、在目标文件夹下 `git init`
+
+1、`git init`
+
+2、`git commit -m 'first commit'`
+
+3、`git remote add origin https://github.com/xunxuntu/Note.git`
+
+4、`git branch -M main` // 将 master 改为 main
+
+// 奇怪每次都要重新带上token
+
+5、`git remote set-url origin https://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@github.com/xunxuntu/Note.git`
+
+6、`git push -u origin main`
+
+===========>>>>>>>> 至此，完全成功。
+
+## github token:
+
+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
+
