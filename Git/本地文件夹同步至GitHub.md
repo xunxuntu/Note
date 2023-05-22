@@ -166,23 +166,25 @@ https://blog.51cto.com/u_16113862/6279475
 
 ===========>>>>>>>> 至此，完全成功。
 
-## 三、操作过程【二次使用】
+## 三、操作过程【二次使用】在新文件夹里链接新仓库
 
 0、在目标文件夹下 `git init`
 
 1、`git init`
 
-2、`git commit -m 'first commit'`
+2、`git add .`
 
-3、`git remote add origin https://github.com/xunxuntu/Note.git`
+3、`git commit -m 'first commit'`
 
-4、`git branch -M main` // 将 master 改为 main
+4、`git remote add origin https://github.com/xunxuntu/Note.git`
+
+5、`git branch -M main` // 将 master 改为 main
 
 // 奇怪每次都要重新带上token
 
-5、`git remote set-url origin https://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@github.com/xunxuntu/Note.git`
+6、`git remote set-url origin https://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@github.com/xunxuntu/Note.git`
 
-6、`git push -u origin main`
+7、`git push -u origin main`
 
 ===========>>>>>>>> 至此，完全成功。
 
