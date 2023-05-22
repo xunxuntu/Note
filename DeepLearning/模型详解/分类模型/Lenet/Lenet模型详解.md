@@ -30,3 +30,9 @@
 
 > 若训练集一共有50000个样本，设batch_size=50，那么完整的训练一次样本：iteration或step=1000，epoch=1
 
+
+
+# 参考
+
+https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#
+
