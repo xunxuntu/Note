@@ -1,4 +1,4 @@
-# Lenet模型详解
+# LeNet-5模型详解
 
 ## 网络结构图
 
@@ -35,4 +35,6 @@
 # 参考
 
 https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html#
+
+https://blog.csdn.net/muye_IT/article/details/123539199
 
