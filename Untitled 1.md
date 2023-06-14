@@ -23,3 +23,11 @@ pt格式的模型，可以用Pytorch框架部署。
 
 【参考链接】https://www.cnblogs.com/xixixing/p/15830977.html
 
+
+
+<mark>隔层相连，弱化每层之间的强联系</mark>
+
+<mark>黄色的</mark>
+
+
+

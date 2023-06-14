@@ -26,39 +26,7 @@ https://blog.csdn.net/gdamichael/article/details/109692192
 
 
 
-http://e.betheme.net/article/show-1129926.aspx?action=onClick
-
-https://zhuanlan.zhihu.com/p/533725319
-
-
-
-https://blog.csdn.net/qq_22487889/article/details/128133933
-
-https://blog.csdn.net/weixin_45525272/article/details/121323167
-
-
-
-https://www.cnblogs.com/yanshw/p/16607884.html
-
-https://www.cnblogs.com/xixixing/p/15830977.html
-
-
-
-https://juejin.cn/post/7075983022675197989
-
-https://www.jianshu.com/p/2f822ae0e582
-
-
-
-https://blog.csdn.net/qq128252/article/details/127105463
-
-https://blog.csdn.net/m0_46303486/article/details/129933027
-
-https://blog.csdn.net/qq_44989881/article/details/119804198
-
-https://blog.csdn.net/qq_44989881/article/details/119488209
-
-
+[toc]
 
 # win10 vs2019安装配置openvino
 
@@ -98,6 +66,13 @@ https://blog.csdn.net/qq_44989881/article/details/119488209
 
 然后，将 opencv\build\include 中的一个子文件夹以及文件夹本身的路径添加进去；
 
+```
+D:\programFiles\Opencv\opencv\build\include
+D:\programFiles\Opencv\opencv\build\include\opencv2
+```
+
+
+
 ![image-20230517134257604](./assets/image-20230517134257604.png)
 
 **第四步，**配置库目录
@@ -108,6 +83,12 @@ https://blog.csdn.net/qq_44989881/article/details/119488209
 
 然后，将vc15中的lib库添加进去；
 
+```
+D:\programFiles\Opencv\opencv\build\x64\vc16\lib
+```
+
+
+
 ![image-20230517134925502](./assets/image-20230517134925502.png)
 
 **第五步，**配置附加依赖项；
@@ -117,6 +98,13 @@ https://blog.csdn.net/qq_44989881/article/details/119488209
 ![image-20230517135102124](./assets/image-20230517135102124.png)
 
 然后，找到vc15/lib目录中的两个lib文件，如下图，添加符合当前模式的lib（Debug or Release）；
+
+```
+opencv_world470d.lib
+# 注意要多个lib文件要加 分号；
+```
+
+
 
 ![image-20230517135212484](./assets/image-20230517135212484.png)
 
