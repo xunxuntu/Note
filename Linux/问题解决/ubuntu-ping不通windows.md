@@ -8,6 +8,8 @@ Ubuntu ping不通win就是win打开了防火墙，需要启用以下功能：
 
 
 
-<img src="./assets/image-20230613185729326.png" alt="image-20230613185729326" style="zoom: 33%;" />
+![image-20230614102645912](./assets/image-20230614102645912.png)
 
-<img src="./assets/image-20230613185655560.png" alt="image-20230613185655560" style="zoom:50%;" />
+
+
+![image-20230614102701482](./assets/image-20230614102701482.png)
