@@ -59,7 +59,7 @@ sudo apt-get install build-essential cmake
 ## step2：[安装opencv](https://so.csdn.net/so/search?q=安装opencv&spm=1001.2101.3001.7020)依赖项
 
 ```
-sudo apt-get install build-essential libgtk2.0-dev libavcodec-dev libavformat-dev libjpeg-dev libswscale-dev libtiff5-dev
+sudo apt-get install build-essential libgtk-3-dev libavcodec-dev libavformat-dev libjpeg-dev libswscale-dev libtiff5-dev
 sudo apt-get install libcanberra-gtk-module
 sudo apt-get install pkg-config
 ```
@@ -103,10 +103,11 @@ conda deactivate
 
 # 然后使用下面的命令进行编译
 cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local .. 
+## 也可以采用官方的教程，也有用：https://docs.opencv.org/4.7.0/d7/d9f/tutorial_linux_install.html
 解释:
 其中第一行最后的[空格+..]一定不能省。其含义是告诉编译器将要编译的文件是来自上一层文件夹的CMakeList.txt文件。
 
-# 如果仍然有提示anaconda包冲突，可以重启一下服务器。
+# 如果仍然有提示anaconda包冲突，可以重启一下服务器【重点是重启】。
  
 # 输出将会如下,则成功
 -- Configuring done
